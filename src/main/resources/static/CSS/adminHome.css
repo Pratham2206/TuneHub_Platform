@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for modern look */
+    color: #e0e0e0; /* Light text color for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e; /* Darker background for the container */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+h1 {
+    background-color: #1e1e1e; /* Darker background for the heading */
+    color: #ffffff; /* White text color for heading */
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners for modern look */
+}
+
+a {
+    text-decoration: none;
+    color: #1DB954; /* Spotify-like green color */
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded corners for modern look */
+    background-color: #1e1e1e; /* Dark background for buttons */
+}
+
+a:hover {
+    color: #1ED760; /* Lighter green on hover */
+    background-color: #333; /* Slightly lighter dark background on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.btn {
+    background-color: #1DB954; /* Spotify-like green color */
+    color: white;
+    text-decoration: none;
+    border-radius: 25px; /* Rounded corners for modern look */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1ED760; /* Lighter green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
